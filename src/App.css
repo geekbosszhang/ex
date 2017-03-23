@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.buffer-content{
+    width: 1024px;
+    height: 640px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border:1px solid #303030;
+}
