@@ -15,7 +15,7 @@ Or you can edit the `src/components/bufferContentViewr.js` to customize it.<br/>
 npm run devstart
 ```
 Then the page will reload automatically if you make edits.
-## Deploy the app to Node.js server
+## Deploy the app on Node.js server
 To create a production build, use 
 ```sh
 npm run build
