@@ -1,21 +1,17 @@
-# Using create-react-app with Express.js
+# Introduction
+It's a demo for visualize page structure in PostgreSQL. We create it as a react app and deploy it on Node.js server. For now, we are using HTML5 canvas for visulization. 
 ## Getting started
-```
+```sh
+git clone git@github.com:geekbosszhang/ex.git
+cd ex
 npm install
-```
-```
-npm run build
-```
-```
 npm start
 ```
-You can open at localhost:3000
-## Running with Docker
-Create an image named exdocker
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Run the app in development mode
+As a demo project, you can edit the `src/App.js` file, change the data to check the result.</br>
+Or you can edit the `src/components/bufferContentViewr.js` to customize it.<br/>
+```sh
+npm run devstart
 ```
-docker build -t exdocker
-```
-Start a container named exdocker at port 3000
-```
-docker run --name=exdocker -p 3000:3000 exdocker
-```
+Then the page will reload automatically if you make edits.
