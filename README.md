@@ -15,3 +15,14 @@ Or you can edit the `src/components/bufferContentViewr.js` to customize it.<br/>
 npm run devstart
 ```
 Then the page will reload automatically if you make edits.
+## Deploy the app to Node.js server
+To create a production build, use 
+```sh
+npm run build
+```
+The build folder is deployed. Then run 
+```sh
+npm start
+```
+to start a server.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
